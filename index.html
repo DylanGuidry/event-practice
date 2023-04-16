@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id='main' class="main">
+            <button class="button-1" id="button">Would you like a biscuit?</button>
+            <div>
+                <img class='image' id="image"/>
+            </div>
+            <div>
+                <button class='close' id='close-button'>No biscuit for me.</button>
+            </div>
+        </div>
+        <div class="parent-form-container">
+            <div class='to-do-container' id="to-do">
+                <div>
+                    <h1 class="to-do-title">TO-DO-FORM</h1>
+                </div>
+                <form class='form' id="form">
+                    <input class='input' placeholder="What to do." value="" id='input' type="text" name="text-field" required minlength="3" maxlength="100">
+                    <button class='form-button' id="sub-button">Submit</button>
+                </form>
+                <div class="remove-and-todo">
+                    <ul class='list' id="listing">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="image-spin-container">
+            <img class="image-spin" id="image-spin" src="./Images/LittleBiscuit.png"/>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

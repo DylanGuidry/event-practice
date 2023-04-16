@@ -1,0 +1,114 @@
+body {
+    background-color: #F9F6F2;
+}
+
+.button-1 {
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.199);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.close {
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.199);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.parent-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.to-do-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #AEC6CF;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+}
+
+.input {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.form-button {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 30px;
+    background-color: white;
+}
+
+.li-list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+    display: flex;
+    align-content: center;
+}
+
+.to-do-title {
+    color: white;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+.remove-button {
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 30px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+.image-spin-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.image-spin {
+    width: 20%;
+}
